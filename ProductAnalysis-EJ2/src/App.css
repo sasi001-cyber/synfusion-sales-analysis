@@ -1,0 +1,62 @@
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-calendars/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-notifications/styles/material.css';
+@import "../node_modules/@syncfusion/ej2-react-grids/styles/material.css";
+
+
+body{
+  background-image: url("imagebg.jpg");
+}
+
+.char_container{
+  background-color: rgb(255, 255, 255);
+ display: flex;
+ flex-direction: column;
+
+ justify-content: center;
+ align-items: center;
+  
+
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    margin-top:15px;
+
+}
+
+.grid_container{
+  backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    margin-top:60px;
+    /* background-color: rgb(255, 255, 255); */
+ display: flex;
+ flex-direction: column;
+
+ justify-content: center;
+ align-items: center;
+  padding: 1em;
+  margin-top:50px;
+
+}
+
+.e-btn:hover{
+  background-color:#E85A83;
+  color: aliceblue;
+}
+.e-btn {
+margin-top: 2em;
+margin: 2em auto;
+position: relative;
+left: 50%;
+}
